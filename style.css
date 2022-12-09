@@ -13,21 +13,26 @@ header {
     justify-content:center;
     align-items:center;
     height:400px;
+    flex-direction:column;
 }
 
 
 .container {
     display:grid;
-    grid-template-columns:repeat(16, 100px);
-    grid-template-rows:repeat(16,100px);
+    grid-template-columns:repeat(16, 1fr);
+    grid-template-rows:repeat(16,1fr);
     background-color:white;
     height:1600px;
     width:1600px;
     margin:0 auto;
+    border-radius:12px;
     
 
 }
 
+
 h1 {
-    font-size: 70px;
+    font-size: 55px;
+    display:block;
 }
+
