@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@300&family=Syncopate:wght@700&family=Unbounded:wght@600&display=swap');
 
 body {
     display:flex;
     flex-direction:column;
-    background-color: #F78D23;
+    background-color: #3433AD;
     font-family:'Manrope', sans-serif;
 }
 
 header {
-    background-color: #F78D23;
+    background-color: #3433AD;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -26,13 +26,46 @@ header {
     width:1600px;
     margin:0 auto;
     border-radius:12px;
-    
+    border:#FAE37D 6px solid;
 
 }
 
 
 h1 {
+    font-family:'Syncopate', sans-serif;
     font-size: 55px;
     display:block;
+    color:#FFEC99;
 }
 
+
+.buttons {
+    display:flex;
+    width:1600px;
+    justify-content:space-around;
+}
+
+.new-grid, .restart {
+    width:200px;
+    height:70px;
+    border:#AD9B45 6px solid;
+    border-radius:16px;
+    font-size:22px;
+    font-family:'Unbounded', sans-serif;
+    font-weight:bold;
+    color:#9E8511;
+}
+
+.new-grid:hover {
+    transition:0.75s;
+    background-color:#FAE37D;
+    color:#3131EB;
+
+}
+
+.restart:hover {
+    transition:0.5s;
+    background-color:#FAE37D;
+    color:#3131EB;
+
+}
