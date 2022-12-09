@@ -22,8 +22,8 @@ header {
     grid-template-columns:repeat(16, 1fr);
     grid-template-rows:repeat(16,1fr);
     background-color:white;
-    height:1600px;
-    width:1600px;
+    height:900px;
+    width:1000px;
     margin:0 auto;
     border-radius:12px;
     border:#FAE37D 6px solid;
@@ -42,7 +42,7 @@ h1 {
 .buttons {
     display:flex;
     width:1600px;
-    justify-content:space-around;
+    justify-content:space-evenly;
 }
 
 .new-grid, .restart {
